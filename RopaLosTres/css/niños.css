@@ -9,6 +9,18 @@ html {
 }
 /*Encabezado*/
 
+<<<<<<< HEAD
+=======
+.titulo img{
+  height: 50px;
+  margin-left: 55px;
+}
+
+  .izquierda{
+      margin-right:60%;
+}
+
+>>>>>>> 122970bdc8214b731098a52e78a863752a64bb16
 header {
   justify-content: space-between;
   display: flex;

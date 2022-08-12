@@ -13,8 +13,8 @@ body{
 
 h1{ font-size: 3.5em;}
 h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
+h3{ font-size: 2.10em;}
+p{ font-size: 1.20em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
@@ -33,7 +33,7 @@ button{
 button:hover{
     box-shadow: 0 8px 16px 0 rgba(1, 253, 164, 0.516);
     transition: 1s ease;
-    background-color: orange;
+    background-color: rgb(229, 255, 0);
     color:black;
      
 }
@@ -43,10 +43,13 @@ button:hover{
     margin: auto;
 }
 
-.color-acento{ color:rgb(255, 0, 0); }
+.color-acento{ color:yellow;
+    text-shadow: 0 0 2px black;
+    
+}
 
 header{
-    background-color: rgb(230,230,230);
+    background-color: rgba(152, 151, 151, 0.922);
     
 }
 
@@ -54,7 +57,8 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: rgb(255, 0, 0);
+    color: black;
+    text-shadow: 0 0 2px yellow;
     font-size: 1.6em;
 }
 
@@ -258,11 +262,7 @@ footer .container{
     }
 
     #somos-ropa .img-container{
-<<<<<<< HEAD
-        background-image: url("Imagenes/Logo.jpg");
-=======
-        background-image: url("in");
->>>>>>> 122970bdc8214b731098a52e78a863752a64bb16
+        background-image: url("Imagenes/Logo.png");
         background-size: cover;
         background-position: center center;
         height: 500px;
